@@ -8,7 +8,7 @@
 
 ## 25.10.2024
 
-- [ ] Random Number guesser
+- [x] Random Number guesser
 - [ ] Ein Projekt für die 2. Lernperiode finden
 
 ✍️ Heute habe ich... (50-100 Wörter)
