@@ -4,13 +4,12 @@
 
 ## Grob-Planung
 
-1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
-4. Was wäre ein geeignetes Projekt für diese LP2?
+
 
 ## 25.10.2024
 
-- [ ] ...
-- [ ] ...
+- [ ] Random Number guesser
+- [ ] Ein Projekt für die 2. Lernperiode finden
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
