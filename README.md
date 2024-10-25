@@ -4,7 +4,7 @@
 
 ## Grob-Planung
 
-
+In dieser 2.Lernperiode möchte ich ein  Spiel programmieren. Ich möchte das Schlangenspiel von Google nachprogrammieren. Die Schlange muss Früchteaufsammeln, dabei wird sie länger. Sie darf nicht in die Wand fahren dann dann ist das spiel vorbei.
 
 ## 25.10.2024
 
