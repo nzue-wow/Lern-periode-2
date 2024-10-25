@@ -12,8 +12,8 @@ In dieser 2.Lernperiode möchte ich ein  Spiel programmieren. Ich möchte das Sc
 - [x] Ein Projekt für die 2. Lernperiode finden
 
 ✍️ Heute habe ich... (50-100 Wörter)
-Ich habe zuerst einen Random Number guesser programmiert um zu checken ob ich das gut kann. Es ging surprisingly(weiss das deutsch wort nicht) gut. Ich musste nur nochmal kurz nachschauen wie die Random funktion ging: 'Random rnd = new Random();
-                      int nummer = rnd.Next(1, 101);'
+Ich habe zuerst einen Random Number guesser programmiert um zu checken ob ich das gut kann. Es ging surprisingly(weiss das deutsch wort nicht) gut. Ich musste nur nochmal kurz nachschauen wie die Random funktion ging: ''Random rnd = new Random();
+                      int nummer = rnd.Next(1, 101);''
 Später habe ich nach Ideen gesucht für die 2. Lernperiode.ICh bin darauf gekommen ein Snake spiel zu machen.
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
