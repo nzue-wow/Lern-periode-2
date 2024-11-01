@@ -27,5 +27,8 @@ Später habe ich nach Ideen gesucht für die 2. Lernperiode.ICh bin darauf gekom
 Habe ich recherchiert wie ich ein Spielfeld könnte machen. Dann hat herr Colic mir zwei Möglichkeiten geschickt die ich dann ausprobiert habe. Leider hat es irgendwie nicht funktioniert, ich denke es liegt daran das ich etwas falsch gemacht habe. Denn das Speilfeld war so komisch verschoben. Ich habe dann im Internet noch ein bisschen rum geschaut wie es auch gemacht werden könnte. Es hat ähnliche sochen drinn ist aber einfacher aufgeabut habe ich das gefühl. aber ich binn mir nicht ganz sicher obe es zum Spiel funktionieren würde. Ich habe eigendlich den ganzen morgen versucht rauszufinden wie ich das Spielfeld mache, so das ich nur kurz am Schluss mir überlegen konnte wie ich  meine Schlange machen möchte. Ich habe mir èberlegt das ich es mit so grösser kleiner Zeichen kann machen: `<, >, ^, v`
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
-## ...
+## 8.11.2024
+-[ ] Herausfinden wie ich die Schlange(<, >...) schön in einer reihe in die Konsole bringen
+-[ ] Die Schlange bewegenlassen mit Tastaturkontrolle
+-[ ] überlegen wie die Schlange nicht aus dem Spielfeld geht.
 
