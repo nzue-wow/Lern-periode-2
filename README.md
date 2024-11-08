@@ -33,4 +33,11 @@ Habe ich recherchiert wie ich ein Spielfeld könnte machen. Dann hat herr Colic 
 - [x] überlegen wie die Schlange nicht aus dem Spielfeld geht.
 
 Heute habe ich...
-Heute habe nicht viel neues am code gearbeitet, denn wie ich das Spielfeld letztes Mal gemacht habe hat für mich nicht viel Sinn gemacht. Also ich habe es nicht ganz verstanden. Jetzt habe ich das Spielfeld mit x und y und for Schleifen gemacht. Ich habe nun noch die start position der schlange initialiesiert. Die Schlange ist jetzt schon in der Mitte aufgezeichnet aber sie kann sich noch nicht bewegen. Heute habe ich auch noch gelernt wei man Variabeln initialisiert dass sie für alle Funktionen gelten nämlich mit z.Bsp. 'static int breite = 25'. ICh habe schon angefangen zu überlegen wie ich dei Schlange im Spielfeld behalten kann 'if (neuX <= 0 || neuX >= breite - 1 || neuY <= 0 || neuY >= höhe - 1)'.Aber est muss ich sie noch zum bewegen bringen.
+Heute habe nicht viel neues am code gearbeitet, denn wie ich das Spielfeld letztes Mal gemacht habe hat für mich nicht viel Sinn gemacht. Also ich habe es nicht ganz verstanden. Jetzt habe ich das Spielfeld mit x und y und for Schleifen gemacht. Ich habe nun noch die start position der schlange initialiesiert. Die Schlange ist jetzt schon in der Mitte aufgezeichnet aber sie kann sich noch nicht bewegen. Heute habe ich auch noch gelernt wei man Variabeln initialisiert dass sie für alle Funktionen gelten nämlich mit z.Bsp. `static int breite = 25`. ICh habe schon angefangen zu überlegen wie ich dei Schlange im Spielfeld behalten kann `if (neuX <= 0 || neuX >= breite - 1 || neuY <= 0 || neuY >= höhe - 1)`.Aber est muss ich sie noch zum bewegen bringen.
+
+## 15.11.2024
+- [ ] Die Schlange zum bewegen bringen mit koordinaten x und y.
+- [ ] Die Schlange darf oben, unten, rechts und links nicht aus dem spielfeld kommen. Versuchen mit: `if (neuX <= 0 || neuX >= breite - 1 || neuY <= 0 || neuY >= höhe - 1)`
+- [ ] Die Schlange soll nach oben, unten, recht und links gehen mit kommando der Pfeiltasten
+- [ ] Pfeiltasten mit dem Programm verbinden
+- 
