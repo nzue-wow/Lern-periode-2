@@ -1,34 +1,70 @@
-﻿namespace Snakespiel
+﻿using System.Xml.Linq;
+
+namespace Snakespiel
 {
     internal class Program
     {
+        static int breite = 110;
+        static int höhe = 25;
+        static char[,] Feld = new char[breite, höhe];
+        static List<(int x, int y)> snake = new List<(int x, int y)>();
+        static int richtungX = 1;
+        static int richtungY = 0;
         static void Main(string[] args)
         {
-            int breite = 110;  // Spielfeldbreite (innen)
-            int höhe = 25;  // Spielfeldhöhe (innen)
+            InitialisiereFeld();
+            startPosition();
 
-            string feld = Spielfeld(breite, höhe);
-            Console.WriteLine(feld);
-            Console.ReadKey();
+            feldzeichen();
+
         }
 
-        static string Spielfeld(int breite, int höhe)
+        static void InitialisiereFeld()
         {
-            string obenFeld = new string('-', breite + 2);
-            string mitteFeld = "|" + new string(' ', breite) + "|";
-
-            // Zusammensetzen des Spielfeldes
-            string feld = obenFeld + "\n";
-            for (int i = 0; i < höhe; i++)
+            // Füllen des Spielfeldes mit Rändern und leerem Innenbereich
+            for (int y = 0; y < höhe; y++)
             {
-                feld += mitteFeld + "\n";
+                for (int x = 0; x < breite; x++)
+                {
+                    if (y == 0 || y == höhe - 1)
+                        Feld[x, y] = '-';
+                    else if (x == 0 || x == breite - 1)
+                        Feld[x, y] = '|';
+                    else
+                        Feld[x, y] = ' ';
+                }
             }
-            feld += obenFeld;
+           
+        }
 
-            return feld;
 
-            //Wie bewegt sich die schlange
+
+        static void startPosition()
+        {
+            //Start position der schlange
+            int startX = breite / 2;
+            int startY = höhe / 2;
+            snake.Add((startX, startY));
+            Feld[startX, startY] = '>';
+        }
+
+        static void feldzeichen()
+        {
+            for(int y = 0;y < höhe; y++)
+            {
+                for(int x = 0;x < breite; x++)
+                {
+                    Console.Write(Feld[x, y]);
+                }
+                Console.WriteLine();
+            }
+        }
+
+        static void schlangeBewegen()
+        {
+            int neuX = snake[0].x + richtungX;
+            int neuY = snake[0].y + richtungY;
         }
     }
 }
-        
+
