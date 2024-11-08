@@ -28,7 +28,7 @@ Habe ich recherchiert wie ich ein Spielfeld könnte machen. Dann hat herr Colic 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 8.11.2024
--[ ] Herausfinden wie ich die Schlange(<, >...) schön in einer reihe in die Konsole bringen
--[ ] Die Schlange bewegenlassen mit Tastaturkontrolle
--[ ] überlegen wie die Schlange nicht aus dem Spielfeld geht.
+- [ ] Herausfinden wie ich die Schlange(<, >...) schön in einer reihe in die Konsole bringen
+- [ ] Die Schlange bewegenlassen mit Tastaturkontrolle
+- [ ] überlegen wie die Schlange nicht aus dem Spielfeld geht.
 
