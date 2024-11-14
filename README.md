@@ -36,8 +36,18 @@ Heute habe ich...
 Heute habe nicht viel neues am code gearbeitet, denn wie ich das Spielfeld letztes Mal gemacht habe hat für mich nicht viel Sinn gemacht. Also ich habe es nicht ganz verstanden. Jetzt habe ich das Spielfeld mit x und y und for Schleifen gemacht. Ich habe nun noch die start position der schlange initialiesiert. Die Schlange ist jetzt schon in der Mitte aufgezeichnet aber sie kann sich noch nicht bewegen. Heute habe ich auch noch gelernt wei man Variabeln initialisiert dass sie für alle Funktionen gelten nämlich mit z.Bsp. `static int breite = 25`. ICh habe schon angefangen zu überlegen wie ich dei Schlange im Spielfeld behalten kann `if (neuX <= 0 || neuX >= breite - 1 || neuY <= 0 || neuY >= höhe - 1)`.Aber est muss ich sie noch zum bewegen bringen.
 
 ## 15.11.2024
-- [ ] Die Schlange zum bewegen bringen mit koordinaten x und y.
-- [ ] Die Schlange darf oben, unten, rechts und links nicht aus dem spielfeld kommen. Versuchen mit: `if (neuX <= 0 || neuX >= breite - 1 || neuY <= 0 || neuY >= höhe - 1)`
-- [ ] Die Schlange soll nach oben, unten, recht und links gehen mit kommando der Pfeiltasten
-- [ ] Pfeiltasten mit dem Programm verbinden
-- 
+- [x] Die Schlange zum bewegen bringen mit koordinaten x und y.
+- [x] Die Schlange darf oben, unten, rechts und links nicht aus dem spielfeld kommen. Versuchen mit: `if (neuX <= 0 || neuX >= breite - 1 || neuY <= 0 || neuY >= höhe - 1)`
+- [x] Die Schlange soll nach oben, unten, recht und links gehen mit kommando der Pfeiltasten
+- [x] Pfeiltasten mit dem Programm verbinden
+
+
+Heute habe ich...
+Ich habe sehr viel Ausprobiert und gegoogelt und Tutorials angeschaut, zum rausfinden wie man die schlange mit x und y bewegt. Dabei habe ich noch den code denn ich letzes Mal schon gefunden habe: `if (neuX <= 0 || neuX >= breite - 1 || neuY <= 0 || neuY >= höhe - 1)` gebraucht damit das Spiel Aufhört wenn die Schlange den Spielrand berührt. Ich hatte auch ein Problem: Die Schlange hat sich zwar bewegt aber sie wurde dabei immer länger, also es hat irgendwie die Pfeile nicht gelöscht so das sie gleich lang bleibt. Das konnte ich dann jedoch gut beheben. Ich habe dann mit einem switch case geschafft die Tastatur zu benutzen und die schlange in alle Richtungen zu leiten. Leider hat es hier ein Problem weil wenn ich die Taste nach oben oder unten gedrückt habe, sind die anderen dann blockiert.
+
+## 22.11.2024
+- [ ] Fehler beheben: Blockierung der Tasten wenn der `UpArrow` oder der `DownArrow` gedrückt wird
+- [ ] Geschwindikeit der Schlange programmieren: langsamer machen
+- [ ] Äpfel auf dem Spielfeld erscheinen lassen
+- [ ] Schlange länger werden lassen wenn ein Apfel gegessen wird
+- [ ] (Bei Game Over entscheiden können ob man nochmals spielen möchte oder ob das Programm sich schliessen soll)
