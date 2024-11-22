@@ -46,8 +46,17 @@ Heute habe ich...
 Ich habe sehr viel Ausprobiert und gegoogelt und Tutorials angeschaut, zum rausfinden wie man die schlange mit x und y bewegt. Dabei habe ich noch den code denn ich letzes Mal schon gefunden habe: `if (neuX <= 0 || neuX >= breite - 1 || neuY <= 0 || neuY >= höhe - 1)` gebraucht damit das Spiel Aufhört wenn die Schlange den Spielrand berührt. Ich hatte auch ein Problem: Die Schlange hat sich zwar bewegt aber sie wurde dabei immer länger, also es hat irgendwie die Pfeile nicht gelöscht so das sie gleich lang bleibt. Das konnte ich dann jedoch gut beheben. Ich habe dann mit einem switch case geschafft die Tastatur zu benutzen und die schlange in alle Richtungen zu leiten. Leider hat es hier ein Problem weil wenn ich die Taste nach oben oder unten gedrückt habe, sind die anderen dann blockiert.
 
 ## 22.11.2024
-- [ ] Fehler beheben: Blockierung der Tasten wenn der `UpArrow` oder der `DownArrow` gedrückt wird
-- [ ] Geschwindikeit der Schlange programmieren: langsamer machen
-- [ ] Äpfel auf dem Spielfeld erscheinen lassen
-- [ ] Schlange länger werden lassen wenn ein Apfel gegessen wird
-- [ ] (Bei Game Over entscheiden können ob man nochmals spielen möchte oder ob das Programm sich schliessen soll)
+- [x] Fehler beheben: Blockierung der Tasten wenn der `UpArrow` oder der `DownArrow` gedrückt wird
+- [x] Geschwindikeit der Schlange programmieren: langsamer machen
+- [x] Äpfel auf dem Spielfeld erscheinen lassen
+- [x] Schlange länger werden lassen wenn ein Apfel gegessen wird
+- [x] (Bei Game Over entscheiden können ob man nochmals spielen möchte oder ob das Programm sich schliessen soll)
+
+Heute habe ich...
+Ich habe den Fehler, blockierung der Tasten, behoben. Dann habe ich raus gefunden wie ich die Geschwindikeit kann regulieren. Nämlich mit `Thread.Sleep(10);`. Bei den äpfel hatte ich am afang ein bisschen mühe. Das sie erscheinen war kein Problem aber das die Schlange dann länger wird sobalt es einen Apfel gegessen hat war noch schwierig. Aber dann ist mir aufgefallen das ich ja normalerweise immer den Schwanz lösche damit die Schlange gleich lang bleibt. Dass hiess das ich wenn die Schlange einen Apfel ass das ich den Schwanz nicht muss verkürzen in diesem Moment. Und dann habe ich noch eine Abfrage gemacht ob man das Spiel nochmals spielen möchte oder nicht.
+
+## 29.11.2024
+- [ ] Spielfeld kleiner machen
+- [ ] Das Game Over schön mittig in der Console darstellen
+- [ ] Die Abfrage direkt unter dem Game Over machen
+
