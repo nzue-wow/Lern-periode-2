@@ -72,3 +72,4 @@ if (aktuellerScore > highscore)`
 - [ ] Herausfinden ob warum die Geschwindigkeit verschieden Schnell ist: hoch und runter ist schneller als rechts und links. Verbessern wenn möglich
 - [ ] Den Score während des Spieles an der Seite anzeigen lassen
 - [ ] Schauen obe man noch mehr verbessern kann.
+- [ ] Den Highscore mal über 20 punkte bringen
