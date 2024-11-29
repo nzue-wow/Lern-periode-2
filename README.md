@@ -56,7 +56,14 @@ Heute habe ich...
 Ich habe den Fehler, blockierung der Tasten, behoben. Dann habe ich raus gefunden wie ich die Geschwindikeit kann regulieren. Nämlich mit `Thread.Sleep(10);`. Bei den äpfel hatte ich am afang ein bisschen mühe. Das sie erscheinen war kein Problem aber das die Schlange dann länger wird sobalt es einen Apfel gegessen hat war noch schwierig. Aber dann ist mir aufgefallen das ich ja normalerweise immer den Schwanz lösche damit die Schlange gleich lang bleibt. Dass hiess das ich wenn die Schlange einen Apfel ass das ich den Schwanz nicht muss verkürzen in diesem Moment. Und dann habe ich noch eine Abfrage gemacht ob man das Spiel nochmals spielen möchte oder nicht.
 
 ## 29.11.2024
-- [ ] Spielfeld kleiner machen
-- [ ] Das Game Over schön mittig in der Console darstellen
-- [ ] Die Abfrage direkt unter dem Game Over machen
+- [x] Spielfeld kleiner machen
+- [x] Das Game Over schön mittig in der Console darstellen
+- [x] Die Abfrage direkt unter dem Game Over machen
 
+Heute habe ich...
+Ich habe das spielfeld kleiner gemacht. Jetzt ist die breite 40 und die höhe 20. Das game over ist jetzt schön mittig des Spielfelds wenn man verliert und die Abfrage ist auch gleichunten dran. Ich habe das mit: `Console.SetCursorPosition(centerX - gameOverText.Length / 2, centerY - 2);` gemacht. Zusätzlich habe ich noch den Score und den Highscore hinzugefügt.
+`int aktuellerScore = snake.Count - 1; // Score ist die Schlangenlänge ohne kopf
+ if (aktuellerScore > highscore)
+ {
+     highscore = aktuellerScore;
+ }`
