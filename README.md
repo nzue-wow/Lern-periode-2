@@ -62,8 +62,8 @@ Ich habe den Fehler, blockierung der Tasten, behoben. Dann habe ich raus gefunde
 
 Heute habe ich...
 Ich habe das spielfeld kleiner gemacht. Jetzt ist die breite 40 und die höhe 20. Das game over ist jetzt schön mittig des Spielfelds wenn man verliert und die Abfrage ist auch gleichunten dran. Ich habe das mit: `Console.SetCursorPosition(centerX - gameOverText.Length / 2, centerY - 2);` gemacht. Zusätzlich habe ich noch den Score und den Highscore hinzugefügt.
-``int aktuellerScore = snake.Count - 1; // Score ist die Schlangenlänge ohne kopf`
-`if (aktuellerScore > highscore)`
-`{`
-    `highscore = aktuellerScore;`
-`}``
+``int aktuellerScore = snake.Count - 1; // Score ist die Schlangenlänge ohne kopf
+if (aktuellerScore > highscore)`
+{
+    highscore = aktuellerScore;
+}``
