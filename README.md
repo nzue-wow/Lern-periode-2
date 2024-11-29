@@ -61,9 +61,14 @@ Ich habe den Fehler, blockierung der Tasten, behoben. Dann habe ich raus gefunde
 - [x] Die Abfrage direkt unter dem Game Over machen
 
 Heute habe ich...
-Ich habe das spielfeld kleiner gemacht. Jetzt ist die breite 40 und die höhe 20. Das game over ist jetzt schön mittig des Spielfelds wenn man verliert und die Abfrage ist auch gleichunten dran. Ich habe das mit: `Console.SetCursorPosition(centerX - gameOverText.Length / 2, centerY - 2);` gemacht. Zusätzlich habe ich noch den Score und den Highscore hinzugefügt.
+Ich habe das spielfeld kleiner gemacht. Jetzt ist die breite 40 und die höhe 20. Das game over ist jetzt schön mittig des Spielfelds wenn man verliert und die Abfrage ist auch gleichunten dran. Ich habe das mit: `Console.SetCursorPosition(centerX - gameOverText.Length / 2, centerY - 2);` gemacht. Zusätzlich habe ich noch den Score und den Highscore hinzugefügt. Nämlich mit: 
 ``int aktuellerScore = snake.Count - 1; // Score ist die Schlangenlänge ohne kopf
 if (aktuellerScore > highscore)`
 {
     highscore = aktuellerScore;
 }``
+
+## 6.12.2024
+- [ ] Herausfinden ob warum die Geschwindigkeit verschieden Schnell ist: hoch und runter ist schneller als rechts und links. Verbessern wenn möglich
+- [ ] Den Score während des Spieles an der Seite anzeigen lassen
+- [ ] Schauen obe man noch mehr verbessern kann.
