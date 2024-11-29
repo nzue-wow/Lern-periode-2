@@ -6,8 +6,8 @@ namespace Snakespiel
 {
     internal class Program
     {
-        static int breite = 110;
-        static int höhe = 25;
+        static int breite = 40;
+        static int höhe = 20;
         static char[,] Feld = new char[breite, höhe];
         static List<(int x, int y)> snake = new List<(int x, int y)>();
         static int richtungX = 1;
@@ -17,6 +17,7 @@ namespace Snakespiel
         static bool spielLäuft = true;
         static Random random = new Random();
         static (int x, int y) apfel;
+        static int highscore = 0;
 
         static void Main(string[] args)
         {
@@ -47,7 +48,7 @@ namespace Snakespiel
                 feldzeichen();
                 AktualisiereRichtung();
                 schlangeBewegen();
-                Thread.Sleep(10);
+                Thread.Sleep(50);
             }
 
             inputThread.Join();
@@ -69,7 +70,39 @@ namespace Snakespiel
         static bool MöchtestDuNochmalsSpielen()
         {
             Console.Clear();
-            Console.WriteLine("Game Over! Möchtest du nochmals spielen? (y/n)");
+
+            // Highscore aktualisieren
+            int aktuellerScore = snake.Count - 1; // Score ist die Schlangenlänge ohne kopf
+            if (aktuellerScore > highscore)
+            {
+                highscore = aktuellerScore;
+            }
+
+            
+            string gameOverText = "GAME OVER!";
+            string scoreText = $"Dein Score: {aktuellerScore}";
+            string highscoreText = $"Highscore: {highscore}";
+            string retryText = "Möchtest du nochmals spielen? (y/n)";
+
+            int centerX = breite / 2;
+            int centerY = höhe / 2;
+
+            // Game Over
+            Console.SetCursorPosition(centerX - gameOverText.Length / 2, centerY - 2);
+            Console.WriteLine(gameOverText);
+
+            // Score
+            Console.SetCursorPosition(centerX - scoreText.Length / 2, centerY);
+            Console.WriteLine(scoreText);
+
+            // Highscore 
+            Console.SetCursorPosition(centerX - highscoreText.Length / 2, centerY + 1);
+            Console.WriteLine(highscoreText);
+
+            // Abfrage 
+            Console.SetCursorPosition(centerX - retryText.Length / 2, centerY + 3);
+            Console.WriteLine(retryText);
+
             while (true)
             {
                 ConsoleKey key = Console.ReadKey(true).Key;
