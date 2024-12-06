@@ -73,3 +73,9 @@ if (aktuellerScore > highscore)`
 - [ ] Den Score während des Spieles an der Seite anzeigen lassen
 - [ ] Schauen obe man noch mehr verbessern kann.
 - [ ] Den Highscore mal über 20 punkte bringen
+
+Heute habe ich...
+Mein Projekt beendet und mich dem Advenscode zu widmen. Ich habe mir dann die Webseite davon erstmals angschaut um so eine übersicht zu bekommen. Dann habe ich weil heute ja der 6. ist den 6. Programmauftrag angeschaut. Ich habe es mir mehrmals durchgelesen undd gemerkt meine Englisch kenntnisse muss ich noch erwitern. Ich  habe aber auch den Auftrag allgemein nicht verstanden, deshalb bin ich dann zum ersten Programmauftrag gegangen. Diesen habe ich dann schon viel besser verstanden. Es ging ebr eine ganze Weile bis ich irgendetwas zustande gebracht habe.
+
+## 13.12.2024
+- [ ] Weiter am Advendcode machen
