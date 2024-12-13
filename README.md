@@ -81,4 +81,4 @@ Und ich habe gerade gemerkt das ich die Aufgabe falsch verstanden habe oder einf
 ## 13.12.2024
 - [x] Herausfinden ob warum die Geschwindigkeit verschieden Schnell ist: hoch und runter ist schneller als rechts und links. Verbessern wenn möglich
 - [x] Den Score während des Spieles an der Seite anzeigen lassen
-- [ ] Weiter am Advendcode machen
+- [ ] Eine Two Player Option machen: ein Feld zwei Spieler. 1 vs 1
