@@ -82,3 +82,12 @@ Und ich habe gerade gemerkt das ich die Aufgabe falsch verstanden habe oder einf
 - [x] Herausfinden ob warum die Geschwindigkeit verschieden Schnell ist: hoch und runter ist schneller als rechts und links. Verbessern wenn möglich
 - [x] Den Score während des Spieles an der Seite anzeigen lassen
 - [ ] Eine Two Player Option machen: ein Feld zwei Spieler. 1 vs 1
+
+Heute habe ich...
+Ich habe den Score an der Seite des Spielfledes mitzählen lassen. Dann wollte das Spiel noch ein wenig erweitern mit einem two Player game. Ich habe dafür abgefragt ob der Benutzer solo oder dou spiellen will. Wenn man solo wählt soll das Spiel normal laufen. Beim Duo soll es ein grösseres Feld machen und dann Zwei schlangen, eine wird mit Pfeilen gesteuert und die andere mit W,A,D,S. Ich habe was ausprobiertindem im Spielfeld2 mache für das duo, aber jetzt lauft nichts mehr. Also man kann noch spielen aber es beendet das spiel nicht mehr.
+
+## 20.12.2024
+- [ ] Das beenden des Spieles wieder richtig machen
+- [ ] Eine Two Player Option machen: ein Feld zwei Spieler. 1 vs 1
+- [ ] Das Projekt dokumentieren
+
