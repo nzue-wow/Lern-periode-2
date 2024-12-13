@@ -79,6 +79,6 @@ Mein Projekt beendet und mich dem Advenscode zu widmen. Ich habe mir dann die We
 Und ich habe gerade gemerkt das ich die Aufgabe falsch verstanden habe oder einfach falsch gemacht habe... ich probier nächstes Mal nochmal
 
 ## 13.12.2024
-- [ ] Herausfinden ob warum die Geschwindigkeit verschieden Schnell ist: hoch und runter ist schneller als rechts und links. Verbessern wenn möglich
-- [ ] Den Score während des Spieles an der Seite anzeigen lassen
+- [x] Herausfinden ob warum die Geschwindigkeit verschieden Schnell ist: hoch und runter ist schneller als rechts und links. Verbessern wenn möglich
+- [x] Den Score während des Spieles an der Seite anzeigen lassen
 - [ ] Weiter am Advendcode machen
